@@ -1,3 +1,9 @@
 language: python
-script:
-	- python compute_metrics.py
+
+python:
+
+  - "3.6"
+
+script: 
+
+  - python compute_metrics.py
