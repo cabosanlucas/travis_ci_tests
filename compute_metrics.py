@@ -1,5 +1,5 @@
 import os
 
-print("hi)
+print("hi")
 with open('feedback.txt', 'w') as f:
 	f.write(os.getcwd())
